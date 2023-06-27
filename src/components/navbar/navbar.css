@@ -1,0 +1,62 @@
+.digitech__navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 2rem 6rem;
+}
+
+.digitech__navbar-links{
+   flex: 1;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+    }
+
+.digitech__navbar-links-logo{
+    margin-right: 2rem;
+    } 
+.digitech__navbar-links-logo img{
+  width: 62.56px;
+  height: 16.02px;
+}   
+
+.digitech__navbar-links-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.digitech__navbar-sign{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.digitech__navbar-links-container p,
+.digitech__navbar-sign p,
+digitech__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.digitech__navbar-sign button,
+.digitech__navbar-menu_container button {
+   padding: 0.5rem 1rem;
+   color: #fff;
+   font-family: var(--font-family);
+    left: 1153px;
+    top: 55px;
+    font-weight: 500;
+    background: #ff4820;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+
+}
