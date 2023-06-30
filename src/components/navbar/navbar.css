@@ -13,10 +13,10 @@ padding: 2rem 6rem;
    align-items: center;
     }
 
-.digitech__navbar-links-logo{
+.digitech__navbar-links_logo{
     margin-right: 2rem;
     } 
-.digitech__navbar-links-logo img{
+.digitech__navbar-links_logo img{
   width: 62.56px;
   height: 16.02px;
 }   
@@ -59,4 +59,7 @@ digitech__navbar-menu_container p {
     outline: none;
     cursor: pointer;
 
+}
+.navbar-toggler{
+    cursor: pointer;
 }
