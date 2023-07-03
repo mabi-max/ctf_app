@@ -4,7 +4,6 @@ import './navbar.css';
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 
 
-
 function Navigation() {
   return (
     <nav className="navbar navbar-dark sticky-top" expand="lg">
@@ -24,8 +23,8 @@ function Navigation() {
           <button className="btn btn-danger me-2 d-none d-lg-block" type="button">
             Sign Up
           </button>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span className="navbar-toggler-icon"></span>
+          <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <RiMenu3Line/>
           </button>
         </div>
 
