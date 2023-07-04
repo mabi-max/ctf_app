@@ -1,0 +1,72 @@
+.digitech__whatdigitech {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.digitech__whatdigitech-feature{
+    display: flex;
+}
+
+.digitech__whatdigitech-feature .digitech__features-container__feature {
+    margin: 0;
+}
+
+.digitech__whatdigitech-feature .digitech__features-container__feature-text {
+    max-width: 700px;
+}
+
+.digitech__whatdigitech-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 4rem 0 2rem;
+}
+
+.digitech__whatdigitech-heading h1{
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 800px;
+font-size: 34px;
+line-height: 45px;
+max-width: 510px;
+}
+
+.digitech__whatdigitech-heading p{
+    font-family: var(--font-family);
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.digitech__whatdigitech-container{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+margin-top: 2rem;
+}
+

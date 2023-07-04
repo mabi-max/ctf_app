@@ -3,7 +3,6 @@ import logo from '../../assets/logo.svg';
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 
-
 function Navigation() {
   return (
     <nav className="navbar navbar-dark sticky-top" expand="lg">
