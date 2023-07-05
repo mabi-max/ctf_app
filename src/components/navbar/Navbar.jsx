@@ -5,9 +5,9 @@ import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 
 function Navigation() {
   return (
-    <nav className="navbar navbar-dark sticky-top" expand="lg">
+    <nav className="navbar navbar-dark " expand="lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#home">
           <div>
             <div className="digitech__navbar-links_logo">
               DigiTech
@@ -31,27 +31,27 @@ function Navigation() {
          
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="#home">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="#whatdigitech">
                 What is Digitech?
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="#possibility">
                 Open AI
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="logout.php">
+              <a className="nav-link" href="#features">
                 Case studies
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="logout.php">
+              <a className="nav-link" href="#blog">
                 Library
               </a>
             </li>
