@@ -4,20 +4,20 @@ import './features.css';
 
 const featuresData = [
     {
-        title: 'Improving end distruts instantly',
-        text: 'Some text that explains inproving end distruts instantly'
+        title: 'Removing distruts instantly',
+        text: 'Fostering trust and building positive relationships.'
     },
     {
-        title: 'Become the tended active',
-        text: 'Some text that explains inproving end distruts instantly'
+        title: 'Exemplary Client Care Guaranteed',
+        text: 'We ensure our clients receive diligent and attentive service'
     },
     {
         title: 'Reach your potential',
-        text: 'Some text that explains inproving end distruts instantly'
+        text: 'Unleash your full potential and achieve personal growth and success.'
     },
     {
-        title: 'Perfection or nothing',
-        text: 'Some text that explains inproving end distruts instantly'
+        title: 'Pursuit of Perfection',
+        text: 'Striving for perfection with unwavering commitment and dedication.'
     }
 ]
 const Features = () => {
