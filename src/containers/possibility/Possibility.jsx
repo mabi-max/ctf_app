@@ -11,7 +11,7 @@ const Possibility = () => {
             <div className="digitech__possibility-content">
                 <h4>Request Early Access to Get Started</h4>
                 <h1 className="gradient__text">The Possibilities are beyond your imagination </h1>
-                <p>Unlock limitless possibilities that surpass the boundaries of your imagination.</p>
+                <p>Unlock limitless possibilities that surpass the boundaries of your imaginations.</p>
                 <h4>Request Early Access to Get Started</h4>
             </div>
         </div>
