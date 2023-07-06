@@ -14,7 +14,7 @@ const Blog = () => {
                  <Article imageUrl={blog01} date="July 5, 2023" title="Open AI is the future. Let us explore!"/>
                 </div>
                 <div className="digitech__blog-container_groupB">
-                <Article imageUrl={blog02} date="July 5, 2023" title="Open AI is the future. Let us explore!"/>
+                <Article imageUrl={blog02} date="July 5, 2023" title="DigiTech and Open AI is the future. Let us explore!"/>
                 <Article imageUrl={blog03} date="July 5, 2023" title="Open AI is the future. Let us explore!"/>
                 <Article imageUrl={blog04} date="July 5, 2023" title="Open AI is the future. Let us explore!"/>
                 <Article imageUrl={blog05}  date="July 5, 2023" title="Open AI is the future. Let us explore!"/>
